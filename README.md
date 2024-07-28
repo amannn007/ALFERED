@@ -31,7 +31,7 @@ You can't access `plans & menu` without login <br/>
 13- when user will click on `log-out` button the `log-out` button will changed to `sign-up` and `login` button come again and user will get `log-out state` <br/>
 
 <!-- End -->
-# Name- Sujeet Kumar <br/>
+
 
 
 
