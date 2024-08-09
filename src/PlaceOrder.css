@@ -1,0 +1,33 @@
+/* src/PlaceOrder.css */
+
+.place-order {
+    text-align: center;
+}
+
+.order-confirmation {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.order-confirmation p {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.track-order-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.track-order-link:hover {
+    color: #0056b3;
+}

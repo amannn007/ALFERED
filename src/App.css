@@ -1,37 +1,61 @@
-.App {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
- 
-  /* background-color: red; */
-  width: 100%;
-  /* height: 5000px; */
-  
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-#you{
-  background-image: url("https://t3.ftcdn.net/jpg/01/36/21/56/360_F_136215694_hTniDaoCLg7MsLBfNyKqnRek5uK7Ecsl.jpg");
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-u{
-  color: #3167ff;
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-#learn{
-  color: #2563ec;
-  text-decoration: underline;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
   font-weight: bold;
 }
-#rotate{
-  transform: rotate(180deg);
+
+a:hover {
+  color: #0056b3;
 }
 
-#you2{
-  background-image: url("https://thumbs.dreamstime.com/b/penne-pasta-plate-tomato-sauce-30685904.jpg");
-  
-}
-#you3{
-  background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
+button:hover {
+  background-color: #0056b3;
+}
 
+p {
+  color: #555;
+  line-height: 1.6;
+}
